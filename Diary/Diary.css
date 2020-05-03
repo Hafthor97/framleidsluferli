@@ -1,0 +1,14 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.workload {
+    font-weight: bold;
+}
+
+.content article {
+    margin-bottom: 30px;
+}

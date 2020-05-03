@@ -1,0 +1,88 @@
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.wrapper {
+    width: 700px;
+    position: relative;
+    margin-top: 15vh;
+}
+
+
+
+.wrapper header h1 {
+    margin: 20px 0 10px;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #666;
+}
+
+/* ABOUT ME */
+
+section {
+    margin-bottom: 30px;
+}
+
+.about-me {
+    display: flex;
+    margin-top: 25px;
+}
+
+
+
+.img-of-me {
+    width: 40%;
+}
+
+.about-me p {
+    margin: 0 0 20px 20px;
+}
+
+.contact {
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+
+h2 { margin-bottom: 5px; }
+
+ul {
+    margin: 0;
+}
+
+/* EDUCATION */
+
+.ed { padding-top: 5px; }
+
+.ed h3 {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.ed p {
+    font-weight: normal;
+    margin: 3px;
+    font-size: 0.8em;
+}
+
+/* SKILLS */
+
+.skill-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill {
+    font-weight: normal;
+    font-size: 1.2em;
+    margin: 3px;
+    padding: 0;
+}

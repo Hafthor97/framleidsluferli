@@ -1,0 +1,58 @@
+
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+header h2 {
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+header p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.content {
+    width: 500px;
+}
+
+article {
+    line-height: 25px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+
+.thegroup article figure {
+    margin: 0 0 15px 15px;
+    margin-left: auto;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+article p {
+    width: 500px;
+    margin: 0 10px 0 0;
+}
+
+.thegroup figure img {
+    width: 80%;
+}
+
+.thegroup figure figcaption {
+    color: #777;
+    font-size: 0.8em;
+} 
+
+.group-member {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+}

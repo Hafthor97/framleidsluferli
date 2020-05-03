@@ -13,6 +13,7 @@ body, html {
     background-image: url("Images/wallpaoerb&w2.jpg");
     z-index: -10;
     background-size: cover;
+    background-position: center;
 }
 
 .wrapper {
@@ -54,43 +55,5 @@ header p {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    transform: translate(-3px, 90px);
-}
-
-nav {
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    background-color:rgba(200,200,200,0.7);
-}
-
-nav > ul {
-    text-align: center;
-    margin: 0;
-    padding: 1.2em;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    list-style-type: none;
-    flex-wrap: wrap;
-}
-
-ul > li {
-    font-size: 1.6em;
-    font-weight: 600;
-    padding: 10px 30px;
-    margin: 0 20px;
-    transition-duration: 0.3s;
-}
-
-
-li > a {
-    color: #606060 !important;
-    text-decoration: none;
-    transition-duration: 0.3s;
-    font-family: monospace;
-}
-
-li > a:hover {
-    color: #909090 !important;
+    transform: translate(-3px, 20px);
 }
