@@ -88,7 +88,7 @@ ul {
 
 .hidden-section {
     display: none;
-    height: 100px;
+    height: 160px;
 }
 
 @media print {
@@ -100,5 +100,9 @@ ul {
 
     .hidden-section {
         display: block;
+    }
+
+    .wrapper {
+        margin-top: 5em;
     }
 }
