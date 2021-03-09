@@ -13,7 +13,6 @@ main {
 }
 
 
-
 .wrapper header h1 {
     margin: 20px 0 10px;
 }
@@ -85,4 +84,21 @@ ul {
     font-size: 1.2em;
     margin: 3px;
     padding: 0;
+}
+
+.hidden-section {
+    display: none;
+    height: 100px;
+}
+
+@media print {
+    .header { display: none };
+
+    .experience-section {
+        margin-top: 300px;
+    }
+
+    .hidden-section {
+        display: block;
+    }
 }
